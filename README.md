@@ -157,6 +157,50 @@ https://github.com/user-attachments/assets/0c286cb1-56b3-4e5c-a377-27cdc496f04a
 </div>
 ```
 
+## Adding menu options
+```html
+<!-- Horizontal Menu: A navigation menu displayed in a single line -->
+    <h2>Horizontal Menu</h2>
+    <nav class="horizontal-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Vertical Menu: A stacked navigation menu on the side -->
+    <h2>Vertical Menu</h2>
+    <div class="vertical-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Dropdown Menu: Clicking or hovering over the button reveals more options -->
+    <h2>Dropdown Menu</h2>
+    <div class="dropdown">
+        <button style="padding: 10px; background-color: #333; color: white; border: none;">Dropdown ▼</button>
+        <div class="dropdown-content">
+            <a href="#">Option 1</a>
+            <a href="#">Option 2</a>
+            <a href="#">Option 3</a>
+        </div>
+    </div>
+
+    <!-- Select Dropdown Menu: A standard HTML dropdown selection -->
+    <h2>Select Dropdown Menu</h2>
+    <select id="options" name="options"> <!-- Dropdown menu -->
+        <option value="option1">Option 1</option> <!-- Dropdown option -->
+        <option value="option2">Option 2</option>
+    </select>
+
+</body>
+</html>
+```
+
 ### Multimedia
 ```html
 <audio controls> <!-- Audio player with controls -->
